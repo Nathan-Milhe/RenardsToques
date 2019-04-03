@@ -1,0 +1,45 @@
+.formAddRecipe {
+	background: #f2f2f2;
+}
+
+.inputChoiceImg {
+	padding: 5px 10px;
+	background: orange;
+	color: white;
+}
+
+.imgUser {
+	border: 1px solid grey;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.inputFormRecette {
+	width: 90%;
+	padding: 5px 10px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.textareaFormRecette {
+	width: 95%;
+	padding: 5px 10px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	min-height: 150px;
+}
+.inputFormRecette:focus {
+	outline: none;
+}
+
+.textareaFormRecette:focus {
+	outline: none;
+	overflow-y: scroll; 
+}
+
+.labelFormRecette {
+	width: 100%;
+}

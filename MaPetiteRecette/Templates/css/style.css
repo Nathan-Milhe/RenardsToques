@@ -1,0 +1,282 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-page {
+	background-color: #F4FAD2;
+}
+
+.bg-margin-page {
+	background-color: #E1EDB9;
+}
+
+.left-title {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.right-title {
+	text-align: right;
+}
+
+.center-title {
+	text-align: center;
+}
+
+.margin-top {
+	margin-top: 50px;
+}
+
+.margin30 {
+  margin-bottom: 30px;
+}
+.textCenter {
+  text-align: center;
+}
+.h3Style {
+  padding: 10px;
+}
+
+.h3TitleHome {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* |---| Style the header |---| */
+.header {
+    text-align: center;
+    background: #F0F2EB;
+}
+
+
+/* |---|---|---|---| NAVBAR |---|---|---|---| */
+
+.navbarStyle {
+    overflow: hidden;
+    background-color: #D4EE5E;
+    margin-bottom: 0; 
+    border-radius: 0; 
+    border: 0;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/* navbar Hover */
+.navbarButton {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin-top: 12px;
+}
+
+.btnNavbar {
+    /*background: #ffa500;*/
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.btnNavbar:hover {
+    border-left: 1px solid #FF4242;
+    border-right: 1px solid #FF4242;
+}
+.btnNavbar:active {
+    transform: translateY(1px);
+}
+.btnNavbar:focus {
+    outline: none;
+}
+
+/* DROPDOWN MENU BUTTON */
+
+.dropdownMenuBtn {
+    position: relative;
+    display: inline-block;
+}
+.dropdownMenuBtnContent {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background: #C7E92F;
+    z-index: 1;
+}
+
+.dropdownMenuBtn:hover .dropdownMenuBtnContent {
+    display: block;
+}
+
+/* #################### MODAL #################### */
+.modalContent {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalConnexion {
+    background: white;
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.inputModal {
+    width: 100%;
+    padding: 6px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* CLOSE BTN */
+.close {
+  color: darkred;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0px 5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* |---| Titre |---| */
+h2 {
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.h4-title {
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #333;
+	margin-top: 0px;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 0px;
+}
+
+.no-text-decoration img {
+	color: #333;
+	border: 1px solid #333;
+}
+
+.no-text-decoration:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.no-text-decoration a:visited, a:link {
+	text-decoration: none;
+	color: #333;
+}
+
+
+
+/* |---| Footer |---| */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #FF4242;
+    color: white;
+    font-size: 15px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width:100%;
+    }
+}
+
+/* |---| Contents |---| */
+
+.content-bottom {
+	margin-bottom: 100px;
+}
+
+.homeContent {
+    background: #f2f2f2;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+/* PAGE MON PROFIL */
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+.profile-content {
+    padding: 20px;
+    background: #fff;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

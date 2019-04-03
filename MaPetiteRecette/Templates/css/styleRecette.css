@@ -1,0 +1,33 @@
+.labelFormInput {
+	width: 40%;
+}
+
+.inputForm {
+	width: 50%;
+}
+
+.borderElement {
+	border: 1px solid grey;
+	padding: 15px;
+	border-radius: 15px;
+	background: #f2f2f2;
+}
+
+.searchBtnForm {
+	margin-top: 15px;
+	padding: 10px 5px;
+	width: 50%;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px; 
+	border: none;
+}
+
+.padding10 {
+	padding: 10px;
+}
+
+.borderImg {
+	border: 1px solid grey;
+}
